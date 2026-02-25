@@ -14,5 +14,9 @@
 //         current -> next = temp;
 //         current = current -> next;
 //     }
+//     if(temp != NULL)
+//     {
+//         head = temp -> prev;
+//     }
 //     return head;
 // }
